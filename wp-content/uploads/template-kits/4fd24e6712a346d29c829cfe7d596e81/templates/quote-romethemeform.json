@@ -1,0 +1,1298 @@
+{
+    "version": "0.4",
+    "title": "Quote RomethemeForm",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-contact",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "452cb77d",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_gap": {
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": 20
+                },
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "7d71ae0d",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 20
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1a29db63",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "59849d87",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Select",
+                                        "name_input": "rform-select",
+                                        "placeholder_input": "Waste Type",
+                                        "options": [
+                                            {
+                                                "_id": "170e3b0",
+                                                "option_text": "Choose Waste"
+                                            },
+                                            {
+                                                "option_text": "Commercial Waste",
+                                                "option_value": "item-1",
+                                                "_id": "e8c7b6b"
+                                            },
+                                            {
+                                                "option_text": "Business Waste",
+                                                "option_value": "item-2",
+                                                "_id": "6dc0203"
+                                            },
+                                            {
+                                                "option_text": "Industrial Waste",
+                                                "option_value": "item-2",
+                                                "_id": "c7b5a3a"
+                                            }
+                                        ],
+                                        "warning_message": "This field is required",
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "option_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "option-border-radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_option_border": "none",
+                                        "__globals__": {
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=accent",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "option_typography_typography": "globals\/typography?id=text",
+                                            "option_bg_normal": "globals\/colors?id=secondary",
+                                            "option_color_normal": "globals\/colors?id=accent",
+                                            "option_color_hover": "globals\/colors?id=primary",
+                                            "option_bg_hover": "globals\/colors?id=secondary",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "select",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "78efd7c1",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "197af65c",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "Address",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "6b49a1ef",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 20
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "ea060b8",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "299b35ea",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "Street Address",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "5b7aedc1",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "4ecfc6b",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "Street Address Line 2",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "58924525",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 20
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1b1b6ac6",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "30ee2685",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "City",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "5bd5f8db",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1b2bebcd",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Select",
+                                        "name_input": "rform-select",
+                                        "placeholder_input": "State \/ Province \/ Region",
+                                        "options": [
+                                            {
+                                                "option_text": "State A",
+                                                "option_value": "item-1",
+                                                "_id": "e8c7b6b"
+                                            },
+                                            {
+                                                "option_text": "State B",
+                                                "option_value": "item-2",
+                                                "_id": "6dc0203"
+                                            },
+                                            {
+                                                "option_text": "State C",
+                                                "option_value": "item-2",
+                                                "_id": "c7b5a3a"
+                                            }
+                                        ],
+                                        "warning_message": "This field is required",
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "option_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "option-border-radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_option_border": "none",
+                                        "__globals__": {
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=accent",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "option_typography_typography": "globals\/typography?id=text",
+                                            "option_bg_normal": "globals\/colors?id=secondary",
+                                            "option_color_normal": "globals\/colors?id=accent",
+                                            "option_color_hover": "globals\/colors?id=primary",
+                                            "option_bg_hover": "globals\/colors?id=secondary",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "select",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "71acf4fa",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 20
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "c1e74a1",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "24d405b6",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "Postal Code",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "608db1db",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "172c0cf6",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Select",
+                                        "name_input": "rform-select",
+                                        "placeholder_input": "Country",
+                                        "options": [
+                                            {
+                                                "option_text": "Indonesia",
+                                                "option_value": "item-1",
+                                                "_id": "e8c7b6b"
+                                            }
+                                        ],
+                                        "warning_message": "This field is required",
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "option_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "option-border-radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_option_border": "none",
+                                        "__globals__": {
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=accent",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "option_typography_typography": "globals\/typography?id=text",
+                                            "option_bg_normal": "globals\/colors?id=secondary",
+                                            "option_color_normal": "globals\/colors?id=accent",
+                                            "option_color_hover": "globals\/colors?id=primary",
+                                            "option_bg_hover": "globals\/colors?id=secondary",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "select",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "44ca5bd0",
+                    "settings": {
+                        "show_label": "",
+                        "label_text": "Message",
+                        "name_input": "rform-message ",
+                        "placeholder_input": "Write Your Question or Suggestion...",
+                        "warning_message": "This field is required",
+                        "label_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "label_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_height": {
+                            "unit": "px",
+                            "size": 190,
+                            "sizes": []
+                        },
+                        "input_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "input_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false,
+                            "size": 0
+                        },
+                        "input_border_radius_tablet": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "input_border_radius_mobile": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "input_background_normal_background": "classic",
+                        "input_border_normal_border": "solid",
+                        "input_border_normal_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_hover_background": "classic",
+                        "input_border_hover_border": "solid",
+                        "input_border_hover_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_focus_background": "classic",
+                        "input_border_focus_border": "solid",
+                        "input_border_focus_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_warning_background": "classic",
+                        "input_border_warning_border": "solid",
+                        "input_border_warning_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "input_typography_typography": "globals\/typography?id=text",
+                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                            "input_color_normal": "globals\/colors?id=secondary",
+                            "input_border_normal_color": "globals\/colors?id=primary",
+                            "input_color_hover": "globals\/colors?id=secondary",
+                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                            "input_border_hover_color": "globals\/colors?id=secondary",
+                            "input_color_focus": "globals\/colors?id=secondary",
+                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                            "input_border_focus_color": "globals\/colors?id=secondary",
+                            "input_color_warning": "globals\/colors?id=secondary",
+                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                            "input_border_warning_color": "globals\/colors?id=secondary",
+                            "placeholder_color": "globals\/colors?id=secondary",
+                            "placeholder_typography_typography": "globals\/typography?id=text",
+                            "warning_color": "globals\/colors?id=primary",
+                            "warning_typography_typography": "globals\/typography?id=text"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-area",
+                    "elType": "widget"
+                },
+                {
+                    "id": "3da25642",
+                    "settings": {
+                        "button_text": "Submit Your Request"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "rform_button_submit",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

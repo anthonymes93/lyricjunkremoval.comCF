@@ -1,0 +1,560 @@
+{
+    "version": "0.4",
+    "title": "Contact RomethemeForm",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-contact",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "13cc894d",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_gap": {
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": 20
+                }
+            },
+            "elements": [
+                {
+                    "id": "1bd7f78c",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": ""
+                        },
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 20
+                        },
+                        "_flex_size": "none",
+                        "_element_width": "initial"
+                    },
+                    "elements": [
+                        {
+                            "id": "1199d3a",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "4843bd57",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Text",
+                                        "name_input": "rform-text",
+                                        "placeholder_input": "Your Name",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "text",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "bab6d47",
+                            "settings": {
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "772a5a75",
+                                    "settings": {
+                                        "show_label": "",
+                                        "label_text": "Email",
+                                        "name_input": "rform-email",
+                                        "placeholder_input": "Your Email",
+                                        "warning_message": "This field is required",
+                                        "label_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "label_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_padding": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12",
+                                            "isLinked": true
+                                        },
+                                        "input_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "input_background_normal_background": "classic",
+                                        "input_border_normal_border": "solid",
+                                        "input_border_normal_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_hover_background": "classic",
+                                        "input_border_hover_border": "solid",
+                                        "input_border_hover_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_focus_background": "classic",
+                                        "input_border_focus_border": "solid",
+                                        "input_border_focus_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "input_background_warning_background": "classic",
+                                        "input_border_warning_border": "solid",
+                                        "input_border_warning_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "input_typography_typography": "globals\/typography?id=text",
+                                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                                            "input_color_normal": "globals\/colors?id=secondary",
+                                            "input_border_normal_color": "globals\/colors?id=primary",
+                                            "input_color_hover": "globals\/colors?id=secondary",
+                                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                                            "input_border_hover_color": "globals\/colors?id=secondary",
+                                            "input_color_focus": "globals\/colors?id=secondary",
+                                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                                            "input_border_focus_color": "globals\/colors?id=secondary",
+                                            "input_color_warning": "globals\/colors?id=secondary",
+                                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                                            "input_border_warning_color": "globals\/colors?id=secondary",
+                                            "placeholder_color": "globals\/colors?id=secondary",
+                                            "placeholder_typography_typography": "globals\/typography?id=text",
+                                            "warning_color": "globals\/colors?id=primary",
+                                            "warning_typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "email",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "5f9a9756",
+                    "settings": {
+                        "show_label": "",
+                        "label_text": "Text",
+                        "name_input": "rform-text",
+                        "placeholder_input": "Your Subject",
+                        "warning_message": "This field is required",
+                        "label_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "label_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "input_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_background_normal_background": "classic",
+                        "input_border_normal_border": "solid",
+                        "input_border_normal_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_hover_background": "classic",
+                        "input_border_hover_border": "solid",
+                        "input_border_hover_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_focus_background": "classic",
+                        "input_border_focus_border": "solid",
+                        "input_border_focus_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_warning_background": "classic",
+                        "input_border_warning_border": "solid",
+                        "input_border_warning_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "input_typography_typography": "globals\/typography?id=text",
+                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                            "input_color_normal": "globals\/colors?id=secondary",
+                            "input_border_normal_color": "globals\/colors?id=primary",
+                            "input_color_hover": "globals\/colors?id=secondary",
+                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                            "input_border_hover_color": "globals\/colors?id=secondary",
+                            "input_color_focus": "globals\/colors?id=secondary",
+                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                            "input_border_focus_color": "globals\/colors?id=secondary",
+                            "input_color_warning": "globals\/colors?id=secondary",
+                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                            "input_border_warning_color": "globals\/colors?id=secondary",
+                            "placeholder_color": "globals\/colors?id=secondary",
+                            "placeholder_typography_typography": "globals\/typography?id=text",
+                            "warning_color": "globals\/colors?id=primary",
+                            "warning_typography_typography": "globals\/typography?id=text"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text",
+                    "elType": "widget"
+                },
+                {
+                    "id": "39fd8ae1",
+                    "settings": {
+                        "show_label": "",
+                        "label_text": "Message",
+                        "name_input": "rform-message ",
+                        "placeholder_input": "Input Message Here",
+                        "warning_message": "This field is required",
+                        "label_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "label_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_height": {
+                            "unit": "px",
+                            "size": 245,
+                            "sizes": []
+                        },
+                        "input_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "input_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "input_border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false,
+                            "size": 0
+                        },
+                        "input_border_radius_tablet": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "input_border_radius_mobile": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "input_background_normal_background": "classic",
+                        "input_border_normal_border": "solid",
+                        "input_border_normal_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_hover_background": "classic",
+                        "input_border_hover_border": "solid",
+                        "input_border_hover_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_focus_background": "classic",
+                        "input_border_focus_border": "solid",
+                        "input_border_focus_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_warning_background": "classic",
+                        "input_border_warning_border": "solid",
+                        "input_border_warning_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "input_typography_typography": "globals\/typography?id=text",
+                            "input_background_normal_color": "globals\/colors?id=6c9a185",
+                            "input_color_normal": "globals\/colors?id=secondary",
+                            "input_border_normal_color": "globals\/colors?id=primary",
+                            "input_color_hover": "globals\/colors?id=secondary",
+                            "input_background_hover_color": "globals\/colors?id=6c9a185",
+                            "input_border_hover_color": "globals\/colors?id=secondary",
+                            "input_color_focus": "globals\/colors?id=secondary",
+                            "input_background_focus_color": "globals\/colors?id=6c9a185",
+                            "input_border_focus_color": "globals\/colors?id=secondary",
+                            "input_color_warning": "globals\/colors?id=secondary",
+                            "input_background_warning_color": "globals\/colors?id=6c9a185",
+                            "input_border_warning_color": "globals\/colors?id=secondary",
+                            "placeholder_color": "globals\/colors?id=secondary",
+                            "placeholder_typography_typography": "globals\/typography?id=text",
+                            "warning_color": "globals\/colors?id=primary",
+                            "warning_typography_typography": "globals\/typography?id=text"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-area",
+                    "elType": "widget"
+                },
+                {
+                    "id": "18f84809",
+                    "settings": {
+                        "button_text": "Send Message",
+                        "btn_fullwidth": "yes"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "rform_button_submit",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}
